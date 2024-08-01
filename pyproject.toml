@@ -4,9 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "anakin-ai"
-version = "0.1.3"
+version = "0.1.4"
 authors = [
-  { name="Lynn Mikami", email="your.email@example.com" },
+  { name="Lynn Mikami", email="lgreenwood288@gmail.com" },
 ]
 description = "A Python client for interacting with the Anakin AI API"
 readme = "README.md"
@@ -22,7 +22,7 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://anakin.ai"
-"Bug Tracker" = "https://anakin.ai/docs"
+"Bug Tracker" = "https://github.com/lynn-mikami/anakin-ai-unofficial-api/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/anakin_ai"]
